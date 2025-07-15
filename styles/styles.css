@@ -112,7 +112,7 @@ p {
     display: none !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .image {
     width: 100%;
     max-width: 20vw;
