@@ -111,3 +111,28 @@ p {
 #lightbox.hidden {
     display: none !important;
 }
+
+@media (max-width: 768px) {
+  .image {
+    width: 100%;
+    max-width: 90vw;
+    border-radius: 20px;
+  }
+
+  .gallery {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+  }
+
+  button {
+    width: 80vw;
+    height: auto;
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
