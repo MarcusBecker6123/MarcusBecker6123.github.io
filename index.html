@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Becker's Life</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <nav>
+          <button onclick="loadPage('start')">Startseite</button>
+          <button onclick="loadPage('fotos')">Fotos</button>
+          <button onclick="loadPage('über')">Über uns</button>
+        </nav>
+      </div>
+    </header>
+    <button id="start-button">▶️</button>
+    <audio
+      id="bg-music"
+      src="/src/audio.mp3"
+      autoplay
+      loop
+      preload="auto"
+    ></audio>
+    <div id="content"></div>
+    <p>Test 123</p>
+    <script>
+      document.getElementById("content").innerHTML = "<p>JS-inserted Text</p>";
+    </script>
+
+    <script src="/src/script.js"></script>
+  </body>
+</html>
