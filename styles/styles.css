@@ -115,7 +115,7 @@ p {
 @media (max-width: 768px) {
   .image {
     width: 100%;
-    max-width: 90vw;
+    max-width: 20vw;
     border-radius: 20px;
   }
 
