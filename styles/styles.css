@@ -67,7 +67,7 @@ p {
    display: block; /* Bild zentrieren */
     margin: 0 auto; /* Zentrieren */
     width: 200px;
-    height: 200px;
+    height: auto;
     object-fit: cover;
     border-bottom: 10px solid rgba(49, 119, 168, 0.3);
     border-right: 9px solid rgba(49, 119, 168, 0.3);
